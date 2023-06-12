@@ -9,7 +9,7 @@ Logging to personal discord server
 
 # Example Usage 
 
-    import pinglog 
-    logger = pinglog() 
+    from pinglog import pinglog 
+    logger = pinglog.Logger() 
     logger.set_webhook('<webhook to server>') 
     logger.ping('hello world') 
